@@ -397,7 +397,7 @@ form {
 .shirt {
     position: absolute;
     top: -101%;
-    left: -16%;
+    left: 0%;
 }
 .bacgraund {
     top: 40%;
@@ -405,6 +405,9 @@ form {
 .flag{
     top: -82%;
     left: 41%;
+}
+.foto-with-plan{
+    padding-top: 40px;
 }
 
 
