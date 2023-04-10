@@ -411,6 +411,7 @@ form {
 }
 .foto-with-plan{
     padding-top: 40px;
+    margin-left: -110px;
 }
 .main-foto4ka{
     display: none;
@@ -418,17 +419,19 @@ form {
 .two-main-foto4ka{
     display: block;
     margin-top: -145px;
+    margin-left: -78px;
 }
 .fone-fon{
 position: absolute;
-width: 100%;
-left: 6%;
+width: 81%;
+left: 16%;
 }
 
 .woman{
     position: relative;
     z-index: 1;
-    width: 100%;
+    width: 88%;
+    left: 12%;
 }
 
 
