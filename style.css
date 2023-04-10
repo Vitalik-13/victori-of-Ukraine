@@ -27,10 +27,13 @@ a{
     flex: 1 1 auto;
 }
 .section-one{
-   
+   position: relative;
     background: #F1FDFF;
     margin-bottom: 143px;
 } 
+.foto-phone{
+    display: none;
+}
    /* header content ------------------------------------------------------------------------------------*/
 
 .header-content{
@@ -91,12 +94,13 @@ a{
 }
 .main-foto4ka{
     position: absolute;
-    top: -93%;
-    left: 28%;
-    z-index: -1;
+    top: -0%;
+    left: 32%;
+    
 }
 .fotka-one{
     position: absolute;
+    z-index: 1;
 }
 .fon{
     position: absolute;
@@ -187,10 +191,9 @@ line-height: 96.9%;
 
 .blue{
     background-image: url(image/Фон\ 5.png);
-    width: 100%;
     min-height: 738px;
     position: relative;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
 }
 .bacgraund{
     position: absolute;
@@ -252,6 +255,7 @@ line-height: 96.9%;
 }
 .contakts{
     display: flex;
+    flex-wrap: wrap;
     gap: 258px;
     padding-top: 57px;
     padding-bottom: 101px;
@@ -314,7 +318,8 @@ form {
 }
 .last-button{
     width: 100%;
-    padding: 22px 173px;
+    text-align: center;
+    padding: 22px 0;
     background-color: #7AE5FD;
     border-radius: 61px;
     border: none;
@@ -326,8 +331,83 @@ form {
 }
 .mail{
    object-fit: contain;
+   max-width: 100%;
 }
 .fon-six{
     position: absolute;
     margin-left: -163px;
+}
+@media(max-width:400px){
+   
+    .foto-phone{
+        display: block;
+        object-position: left;
+    }
+    .last-link-header{
+        display: none;
+        
+    }
+    .nav{
+        display: none;
+    }
+    .main-title {
+        text-transform: uppercase;
+        color: #9AD2DE;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 94.9%;;
+        letter-spacing: -0.02em;
+        padding-bottom: 64px;
+    }
+    
+.header-content {
+    margin-top: 63px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.fon{
+    margin-left: 0;
+}
+.fon-six{
+    display: none;
+}
+.contakts {
+    display: flex;
+    gap: 44px;
+    padding-top: 57px;
+    padding-bottom: 42px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.last-paragraph{
+    font-size: 20px;
+}
+.last-block{
+    padding: 0 10px;
+}
+.text-programa{
+    font-size: 50px;
+}
+.blue {
+    background-image: none;
+}
+.shirt {
+    position: absolute;
+    top: -101%;
+    left: -16%;
+}
+.bacgraund {
+    top: 40%;
+}
+.flag{
+    top: -82%;
+    left: 41%;
+}
+
+
+
+
 }
