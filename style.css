@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+    transition: all .4s ease;
+    color: #000;
+}
+[class*="container"]{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.main{
+    flex: 1 1 auto;
+}
+.section-one{
+   
+    background: #F1FDFF;
+    margin-bottom: 143px;
+} 
+   /* header content ------------------------------------------------------------------------------------*/
+
+.header-content{
+    position: relative;
+    z-index: 3;
+    margin-top: 63px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+.nav{
+    margin-left: auto;
+}
+.last-link-header{
+    
+    margin-left: 24px;
+    padding: 21px 28px;
+    background-color:#7AE5FD;
+    border-radius: 87px;
+    font-size: 18px;
+    line-height: 96.9%;
+  
+}
+.last-link-header:hover{
+   background-color: #61dcf8;
+}
+.link-header{
+    font-size: 18px;
+    line-height: 96.9%;
+}
+.link-header:hover{
+    text-decoration: underline;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+/* main-content-------------------------------------------------------------------- */
+.mega-title{
+    max-width: 698px;
+    padding-bottom: 153px;
+}
+
+.main-title{
+    text-transform: uppercase;
+    color:#9AD2DE;
+    font-weight: 800;
+    font-size: 93px;
+    line-height: 94.9%;
+    letter-spacing: -0.02em;
+    padding-bottom: 64px;   
+}
+.main-foto4ka{
+    position: absolute;
+    top: -93%;
+    left: 28%;
+    z-index: -1;
+}
+.fotka-one{
+    position: absolute;
+}
+.fon{
+    position: absolute;
+    margin-left: 177px; 
+}
+.title-programa{
+    margin-bottom: 42px;
+    text-align: center;
+}
+.text-programa{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94.9%;
+    letter-spacing: -0.02em;
+}
+.stage{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 96.9%; 
+}
+.paragraph-stage{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #73A6B1;
+}
+.text-and-foto{
+    background-color: #F1FDFF;
+    padding-top: 45px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.title-text-in-foto{
+    margin-top: 30px;
+    background-color: #F1FDFF;
+    padding: 40px 40px 70px 40px;
+}
+.title-plan{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 94.9%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.littel-titel-plan{
+padding-bottom: 45px;
+font-weight: 400;
+font-size: 20px;
+line-height: 96.9%;
+}
+.big-paragrph{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 96.9%;
+}
+.littel-paragraph{
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 96.9%;
+    color:  #3D8C9D;;
+}
+.littel-paragraph:last-child{
+    padding-bottom: 0px;
+}
+.foto-with-plan{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+.foto-with-plan:hover{
+    transform: scale(1.1);
+}
+.text-and-foto:first-child{
+    padding-top: 0px;
+}
+.button{
+    text-align: center;
+   margin: 60px 0px 68px 0px;
+}
+/* section three----------------------------------------------------------------------------- */
+
+.blue{
+    background-image: url(image/Фон\ 5.png);
+    width: 100%;
+    min-height: 738px;
+    position: relative;
+    padding-bottom: 64px;
+}
+.bacgraund{
+    position: absolute;
+    top: 33%;
+    background: #F2FEFF;
+    margin-top: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.blue-text{
+    display: flex;
+    max-width: 391px;
+    font-weight: 400;
+    font-size: 27.271px;
+    line-height: 120%;
+    padding-top: 89px;
+    padding-bottom: 89px;
+    padding-left: 40px;
+}
+.shirt{
+    position: absolute;
+    top: -20%;
+    left: 55%;
+}
+.flag{
+    position: absolute;
+    top: 10%;
+    left: 72%;
+}
+.our-qestion{
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 96.9%;
+    padding-bottom: 25px;
+}
+.span{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94.9%;
+    border-right: 2px solid #9AD2DE;
+}
+.title-programa .span:first-child {
+    padding-left: 0;
+  }
+.span:last-child{
+    border: none;
+    padding-right: 0;
+}
+.maney{
+    padding-bottom: 20px;
+}
+.section-five{
+    margin-top: 146px;
+    background-color:#F9FADF;
+    padding-bottom: 116px; 
+}
+.contakts{
+    display: flex;
+    gap: 258px;
+    padding-top: 57px;
+    padding-bottom: 101px;
+    position: relative;
+}
+.titel-contakts{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94.9%;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+.social-network{
+    max-width: 340px;
+}
+.phone-paragraph{
+   padding-top: 9px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 120%;
+   padding-bottom: 57px;
+}
+.phone-link{
+    font-weight: 700;
+}
+.network-logo{
+    margin-right: 18px;
+}
+.network-logo:last-child{
+    margin-right: 0;
+}
+.forma{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 92px;
+    background-color: #fff;
+   
+}
+.last-block{
+    margin-top: 54px;
+}
+.last-paragraph{
+    max-width: 455px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 120%;
+}
+form {
+    margin-top: 39px;
+    max-width: 506px;
+}
+.input{
+    width: 100%;   
+    padding: 21px 0px 21px 43px ;
+    background-color:#F9FADF;
+    border: none;
+    border-radius: 61px;
+    margin-bottom: 31px;
+    outline: 0;
+}
+.last-button{
+    width: 100%;
+    padding: 22px 173px;
+    background-color: #7AE5FD;
+    border-radius: 61px;
+    border: none;
+    margin-bottom: 54px;
+    outline: 0;
+}
+.last-button:hover{
+    background-color:#9de0f0 ;
+}
+.mail{
+   object-fit: contain;
+}
+.fon-six{
+    position: absolute;
+    margin-left: -163px;
+}
