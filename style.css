@@ -98,6 +98,9 @@ a{
     left: 32%;
     
 }
+.two-main-foto4ka{
+    display: none;
+}
 .fotka-one{
     position: absolute;
     z-index: 1;
@@ -409,8 +412,24 @@ form {
 .foto-with-plan{
     padding-top: 40px;
 }
+.main-foto4ka{
+    display: none;
+}
+.two-main-foto4ka{
+    display: block;
+    margin-top: -145px;
+}
+.fone-fon{
+position: absolute;
+width: 100%;
+left: 6%;
+}
 
-
+.woman{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
 
 
 }
